@@ -1,0 +1,30 @@
+th,td{
+border:1px solid black;
+width:120px;
+}
+
+#icon{
+    width:70px;
+}
+
+#flex{
+    margin-left:38%;
+    width:250px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+#headd{
+    text-align:center
+}
+body{
+    font-size:30px;
+    background-image: linear-gradient(to bottom right, red,white,yellow);
+    height:800px;
+}
+#submit{
+    width:200px;
+    height:30px;
+    border-radius: 20px;
+    margin-left: 27px;
+}
