@@ -1,5 +1,5 @@
 import "./index.css"
-
+import img from "../images.png"
 let todo = document.getElementById('todo');
 let form = document.createElement('form');
 form.id="form"
@@ -55,6 +55,6 @@ tb.append(row)
 
 let icon = document.getElementById("icon")
 let image = document.createElement("img")
-image.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQplnquYacn4RNDRicUdkGX1qvAZQ7Ai6FnVg&usqp=CAU"
+image.src=img
 image.id="Image1"
 icon.append(image)

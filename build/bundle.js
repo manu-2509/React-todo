@@ -40,6 +40,16 @@ eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=w
 
 /***/ }),
 
+/***/ "./images.png":
+/*!********************!*\
+  !*** ./images.png ***!
+  \********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"53b6c44243870bcf56025c4dd7e6d209.png\");\n\n//# sourceURL=webpack://react-todo/./images.png?");
+
+/***/ }),
+
 /***/ "./src/index.css":
 /*!***********************!*\
   !*** ./src/index.css ***!
@@ -116,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n\r\n\r\nlet todo = document.getElementById('todo');\r\nlet form = document.createElement('form');\r\nform.id=\"form\"\r\nlet l1= document.createElement('label')\r\nl1.innerText=\"Task\"\r\nlet input = document.createElement('input')\r\ninput.type=\"text\"\r\ninput.id=\"name\"\r\nlet l2 = document.createElement('label')\r\nl2.innerText=\"Date\"\r\nlet input2 = document.createElement('input')\r\ninput2.type=\"date\"\r\ninput2.id=\"Date\"\r\nlet submit = document.createElement('input')\r\nsubmit.type=\"submit\"\r\nsubmit.id=\"submit\"\r\nform.append(l1,input,l2,input2,submit)\r\ntodo.appendChild(form)\r\n\r\nlet table = document.createElement('table')\r\nlet thead = document.createElement('thead')\r\nlet tbody = document.createElement('tbody')\r\ntbody.id=\"Tableb\"\r\nlet tr = document.createElement('tr')\r\nlet th1 = document.createElement('th')\r\nth1.innerText=\"Task\"\r\nlet th2 = document.createElement('th')\r\nth2.innerText=\"Date\"\r\nlet th3 = document.createElement('th')\r\nth3.innerText=\"Status\"\r\ntr.append(th1,th2,th3)\r\nthead.append(tr)\r\ntable.append(thead,tbody)\r\ntodo.append(table)\r\n\r\n\r\nlet tb=document.getElementById(\"Tableb\")\r\ndocument.getElementById(\"form\").addEventListener(\"submit\",addItem)\r\nfunction addItem(event){\r\n    event.preventDefault();\r\nvar name = document.getElementById(\"name\").value\r\nvar date = document.getElementById(\"Date\").value\r\nvar row=document.createElement(\"tr\");\r\nvar td1=document.createElement(\"td\");\r\ntd1.textContent=name;\r\nvar td2=document.createElement(\"td\");\r\ntd2.textContent=date;\r\nvar td3=document.createElement(\"td\");\r\ntd3.textContent=\"Pending\";\r\nrow.append(td1,td2,td3)\r\ntb.append(row)\r\n}\r\n\r\nlet icon = document.getElementById(\"icon\")\r\nlet image = document.createElement(\"img\")\r\nimage.src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQplnquYacn4RNDRicUdkGX1qvAZQ7Ai6FnVg&usqp=CAU\"\r\nimage.id=\"Image1\"\r\nicon.append(image)\n\n//# sourceURL=webpack://react-todo/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _images_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images.png */ \"./images.png\");\n\r\n\r\nlet todo = document.getElementById('todo');\r\nlet form = document.createElement('form');\r\nform.id=\"form\"\r\nlet l1= document.createElement('label')\r\nl1.innerText=\"Task\"\r\nlet input = document.createElement('input')\r\ninput.type=\"text\"\r\ninput.id=\"name\"\r\nlet l2 = document.createElement('label')\r\nl2.innerText=\"Date\"\r\nlet input2 = document.createElement('input')\r\ninput2.type=\"date\"\r\ninput2.id=\"Date\"\r\nlet submit = document.createElement('input')\r\nsubmit.type=\"submit\"\r\nsubmit.id=\"submit\"\r\nform.append(l1,input,l2,input2,submit)\r\ntodo.appendChild(form)\r\n\r\nlet table = document.createElement('table')\r\nlet thead = document.createElement('thead')\r\nlet tbody = document.createElement('tbody')\r\ntbody.id=\"Tableb\"\r\nlet tr = document.createElement('tr')\r\nlet th1 = document.createElement('th')\r\nth1.innerText=\"Task\"\r\nlet th2 = document.createElement('th')\r\nth2.innerText=\"Date\"\r\nlet th3 = document.createElement('th')\r\nth3.innerText=\"Status\"\r\ntr.append(th1,th2,th3)\r\nthead.append(tr)\r\ntable.append(thead,tbody)\r\ntodo.append(table)\r\n\r\n\r\nlet tb=document.getElementById(\"Tableb\")\r\ndocument.getElementById(\"form\").addEventListener(\"submit\",addItem)\r\nfunction addItem(event){\r\n    event.preventDefault();\r\nvar name = document.getElementById(\"name\").value\r\nvar date = document.getElementById(\"Date\").value\r\nvar row=document.createElement(\"tr\");\r\nvar td1=document.createElement(\"td\");\r\ntd1.textContent=name;\r\nvar td2=document.createElement(\"td\");\r\ntd2.textContent=date;\r\nvar td3=document.createElement(\"td\");\r\ntd3.textContent=\"Pending\";\r\nrow.append(td1,td2,td3)\r\ntb.append(row)\r\n}\r\n\r\nlet icon = document.getElementById(\"icon\")\r\nlet image = document.createElement(\"img\")\r\nimage.src=_images_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\r\nimage.id=\"Image1\"\r\nicon.append(image)\n\n//# sourceURL=webpack://react-todo/./src/index.js?");
 
 /***/ })
 
@@ -171,6 +181,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +207,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
